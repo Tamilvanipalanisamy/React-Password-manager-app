@@ -1,0 +1,80 @@
+.color1 {
+  background-color: #ad3295;
+}
+.color2 {
+  background-color: #4949e6;
+}
+.color3 {
+  background-color: #10b981;
+}
+.color4 {
+  background-color: #f97316;
+}
+.color5 {
+  background-color: #14b8a6;
+}
+.color6 {
+  background-color: #b91c1c;
+}
+
+.each-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #b6c3ca;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 8px;
+}
+@media screen and (min-width: 768px) {
+  .each-item {
+    width: 30%;
+  }
+}
+.delete-icon {
+  width: 24px;
+}
+.star-image {
+  width: 60%;
+}
+.website-password-delete {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+.website-name {
+  font-size: 19px;
+  font-weight: 500;
+  font-family: 'roboto';
+  color: white;
+  line-height: 0px;
+}
+.username {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'roboto';
+  color: white;
+}
+.initial {
+  color: white;
+  font-size: 20px;
+  width: 35px;
+  height: 35px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin-right: 9px;
+}
+.delete-button {
+  border: 1px solid transparent;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
